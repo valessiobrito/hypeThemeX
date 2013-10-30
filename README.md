@@ -23,3 +23,8 @@ the heart of Compass and Foundation to Elgg.
 * FontAwesome http://fortawesome.github.io/Font-Awesome/
 
 
+## Screenshots ##
+
+![alt text](https://raw.github.com/hypeJunction/hypeThemeX/master/screenshots/default_profile_full.png "Default Theme - Proifle - Desktop")
+![alt text](https://raw.github.com/hypeJunction/hypeGallery/master/screenshots/default_profile_mobile.png "Default Theme - Profile - Mobile")
+![alt text](https://raw.github.com/hypeJunction/hypeGallery/master/screenshots/yours_for_a_day_mobile.png "Yours for a day Theme - Activity - Mobile")
