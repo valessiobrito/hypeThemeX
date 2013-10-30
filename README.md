@@ -9,8 +9,6 @@ the heart of Compass and Foundation to Elgg.
 * Fully responsive layout (Foundation grid)
 * Minimal interference with and replacement of core Elgg views
 * Easily switch between compiled themes using plugin settings
-
-### Pro Version
 * Includes SASS source files
 * Reliant on Compass and Foundation mixins
 * A set of custom Elgg @mixin directives for image blocks, modules, lists etc
