@@ -6733,8 +6733,6 @@ a [class*=" elgg-icon-"] {
   padding-left: 0.9375em;
   padding-right: 0.9375em;
   width: 100%;
-  right: 100%;
-  left: auto;
   float: left;
 }
 .elgg-layout-two-sidebar .elgg-sidebar {
@@ -6743,8 +6741,6 @@ a [class*=" elgg-icon-"] {
   padding-left: 0.9375em;
   padding-right: 0.9375em;
   width: 100%;
-  right: 100%;
-  left: auto;
   float: left;
 }
 .elgg-layout-two-sidebar .elgg-sidebar-alt {
@@ -6753,8 +6749,6 @@ a [class*=" elgg-icon-"] {
   padding-left: 0.9375em;
   padding-right: 0.9375em;
   width: 100%;
-  left: 100%;
-  right: auto;
   float: left;
 }
 @media only screen and (min-width: 768px) {
@@ -6782,7 +6776,7 @@ a [class*=" elgg-icon-"] {
     padding-left: 0.9375em;
     padding-right: 0.9375em;
     width: 16.66667%;
-    right: 83.33333%;
+    right: 25%;
     left: auto;
     float: left;
   }

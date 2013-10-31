@@ -129,26 +129,26 @@
 	@include grid-row;
 
 	.elgg-main {
-		@include grid-column($columns : 12, $pull : 12);
+		@include grid-column(12);
 	}
 	.elgg-sidebar {
 		min-height: $elgg-value-small;
-		@include grid-column($columns : 12, $pull : 12);
+		@include grid-column(12);
 	}
 	.elgg-sidebar-alt {
 		min-height: $elgg-value-small;
-		@include grid-column($columns : 12, $push : 12);
+		@include grid-column(12);
 	}
 
 	@media #{$small} {
-		& .elgg-main {
+		.elgg-main {
 			@include grid-column($columns:7,$pull:3);
 		}
-		& .elgg-sidebar {
+		.elgg-sidebar {
 			@include grid-column($columns:3,$push:9,$last-column:true);
 		}
-		& .elgg-sidebar-alt {
-			@include grid-column($columns:2,$pull:10);
+		.elgg-sidebar-alt {
+			@include grid-column($columns:2, $pull: 3);
 		}
 
 	}
