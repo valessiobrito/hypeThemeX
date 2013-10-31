@@ -5228,7 +5228,7 @@ a [class*=" elgg-icon-"] {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-.elgg-menu-topbar li > a:not(.elgg-button) {
+.elgg-menu-topbar li:not(.elgg-menu-item-toggle) > a:not(.elgg-button) {
   line-height: 45px;
   height: 45px;
   color: white;
@@ -5236,10 +5236,10 @@ a [class*=" elgg-icon-"] {
   display: inline-block;
   overflow: hidden;
 }
-.elgg-menu-topbar li > a:not(.elgg-button):hover {
+.elgg-menu-topbar li:not(.elgg-menu-item-toggle) > a:not(.elgg-button):hover {
   color: #f2e6af;
 }
-.elgg-menu-topbar li > a:not(.elgg-button) > .elgg-icon + span {
+.elgg-menu-topbar li:not(.elgg-menu-item-toggle) > a:not(.elgg-button) > .elgg-icon + span {
   background: #67080a;
   color: white;
   height: 1.5625em;

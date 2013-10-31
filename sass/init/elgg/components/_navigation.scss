@@ -78,7 +78,7 @@
 		@include box-sizing;
 	}
 
-	li > a:not(.elgg-button) {
+	li:not(.elgg-menu-item-toggle) > a:not(.elgg-button) {
 		line-height: $topbar-height;
 		height: $topbar-height;
 		color: $topbar-link-color;
