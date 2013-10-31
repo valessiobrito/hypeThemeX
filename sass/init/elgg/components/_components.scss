@@ -115,7 +115,8 @@
 }
 
 .elgg-river-more {
-	@include elgg-button;
+	font-size: emCalc(14px);
+	margin-left: $elgg-value-medium;
 }
 
 .elgg-river-item form {

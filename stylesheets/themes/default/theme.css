@@ -6362,33 +6362,8 @@ a [class*=" elgg-icon-"] {
 }
 
 .elgg-river-more {
-  border-style: solid;
-  border-width: 1px;
-  cursor: "pointer";
-  font-family: inherit;
-  font-weight: bold;
-  line-height: normal;
-  margin: 0 0 0.75em;
-  position: relative;
-  text-decoration: none;
-  text-align: center;
-  display: inline-block;
-  padding-top: 0.5625em;
-  padding-right: 1.125em;
-  padding-bottom: 0.625em;
-  padding-left: 1.125em;
-  font-size: 0.8125em;
-  background-color: #4690d6;
-  border-color: #2a77bf;
-  color: white;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
-}
-.elgg-river-more:hover, .elgg-river-more:focus {
-  background-color: #2a77bf;
-}
-.elgg-river-more:hover, .elgg-river-more:focus {
-  color: white;
+  font-size: 0.875em;
+  margin-left: 0.5625em;
 }
 
 .elgg-river-item form {
