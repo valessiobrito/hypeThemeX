@@ -9,7 +9,7 @@
 }
 
 @mixin elgg-divide($top: 0px, $right: 0px, $bottom: 0px, $left: 0px, $color: $border-color) {
-	
+
 	border-width: $top $right $bottom $left;
 	border-style: solid;
 	border-color: $color;
@@ -240,4 +240,22 @@
 	}
 }
 
-
+@mixin toolbar-notifier($bg: $alert-color, $color: #fff) {
+	background: $bg;
+	color: $color;
+	height: emCalc(25px);
+	line-height: emCalc(25px);
+	text-align: center;
+	display: inline-block;
+	padding: 0 3px;
+	font-weight: bold;
+	overflow: visible;
+	margin: 0;
+	position: relative;
+	left: -3px;
+	top: -7px;
+	font-size: 10px;
+	@include box-shadow(none);
+	@include box-sizing(content-box);
+	@include radius;
+}

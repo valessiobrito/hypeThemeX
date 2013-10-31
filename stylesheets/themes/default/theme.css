@@ -5228,28 +5228,40 @@ a [class*=" elgg-icon-"] {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-.elgg-menu-topbar .messages-new {
-  line-height: 2em;
-  height: 2em;
-  width: 2em;
-  display: block;
-  text-align: center;
-  font-size: 0.875em;
-  top: 0.5em;
-  padding: 0;
-  margin-left: -12px;
-  -webkit-border-radius: 32px;
-  -moz-border-radius: 32px;
-  border-radius: 32px;
-}
 .elgg-menu-topbar li > a:not(.elgg-button) {
   line-height: 45px;
   height: 45px;
   color: white;
   font-size: 0.8125em;
+  display: inline-block;
+  overflow: hidden;
 }
 .elgg-menu-topbar li > a:not(.elgg-button):hover {
   color: #e9e9e9;
+}
+.elgg-menu-topbar li > a:not(.elgg-button) > .elgg-icon + span {
+  background: #67080a;
+  color: white;
+  height: 1.5625em;
+  line-height: 1.5625em;
+  text-align: center;
+  display: inline-block;
+  padding: 0 3px;
+  font-weight: bold;
+  overflow: visible;
+  margin: 0;
+  position: relative;
+  left: -3px;
+  top: -7px;
+  font-size: 10px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
 }
 .elgg-menu-topbar.title-area > li {
   height: 45px;
@@ -5261,20 +5273,20 @@ a [class*=" elgg-icon-"] {
 .elgg-menu-topbar.title-area > li.elgg-menu-item-elgg-logo.name {
   display: none;
   /*			position: absolute;
-  			width: 100%;
-  			margin-top: 0;
-  			margin-left: 0;
-  			margin-right: 15px;
-  			top: 0;
-  			left: 15px;
-  			font-size: $topbar-link-font-size + emCalc(8px);
-  			a h1 {
-  				line-height: $topbar-height;
-  				overflow: hidden;
-  				white-space: nowrap;
-  				color: $topbar-link-color;
-  				font-wegith: bold;
-  			}*/
+  	width: 100%;
+  	margin-top: 0;
+  	margin-left: 0;
+  	margin-right: 15px;
+  	top: 0;
+  	left: 15px;
+  	font-size: $topbar-link-font-size + emCalc(8px);
+  	a h1 {
+  	line-height: $topbar-height;
+  	overflow: hidden;
+  	white-space: nowrap;
+  	color: $topbar-link-color;
+  	font-wegith: bold;
+  }*/
 }
 .elgg-menu-topbar.title-area > li.toggle-topbar.menu-icon {
   position: absolute;

@@ -77,26 +77,19 @@
 		border: 1px solid $border-color;
 		@include box-sizing;
 	}
-	.messages-new {
-		line-height: emCalc(32px);
-		height: emCalc(32px);
-		width: emCalc(32px);
-		display: block;
-		text-align: center;
-		font-size: emCalc(14px);
-		top: emCalc(8px);
-		padding: 0;
-		margin-left: -12px;
-		@include border-radius(32px);
-	}
 
 	li > a:not(.elgg-button) {
 		line-height: $topbar-height;
 		height: $topbar-height;
 		color: $topbar-link-color;
 		font-size: $topbar-link-font-size;
+		display: inline-block;
+		overflow: hidden;
 		&:hover {
 			color: $topbar-link-color-hover;
+		}
+		& > .elgg-icon + span {
+			@include toolbar-notifier;
 		}
 	}
 
@@ -109,15 +102,15 @@
 		&.elgg-menu-item-elgg-logo.name {
 			display: none;
 
-/*			position: absolute;
-			width: 100%;
-			margin-top: 0;
-			margin-left: 0;
-			margin-right: 15px;
-			top: 0;
-			left: 15px;
-			font-size: $topbar-link-font-size + emCalc(8px);
-			a h1 {
+			/*			position: absolute;
+				width: 100%;
+				margin-top: 0;
+				margin-left: 0;
+				margin-right: 15px;
+				top: 0;
+				left: 15px;
+				font-size: $topbar-link-font-size + emCalc(8px);
+				a h1 {
 				line-height: $topbar-height;
 				overflow: hidden;
 				white-space: nowrap;
