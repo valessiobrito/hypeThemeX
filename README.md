@@ -2,7 +2,7 @@
 ## Unleashing syntatical awesomeness in Elgg
 
 hypeThemeX is an original SASS-driven theming project that brings
-the heart of Compass and Foundation to Elgg. 
+the heart of Compass and Foundation to Elgg.
 
 ### Features
 
@@ -13,6 +13,15 @@ the heart of Compass and Foundation to Elgg.
 * Reliant on Compass and Foundation mixins
 * A set of custom Elgg @mixin directives for image blocks, modules, lists etc
 * Ready for "sass watch" (make sure you have the compass gem)
+
+
+### Compiling your own theme
+
+1. Educate yourself about SASS http://alistapart.com/article/getting-started-with-sass
+2. Download and install a compiler of your preference http://sass-lang.com/install
+3. Create a new folder in ```mod/hypeThemeX/sass/themes``` and copy sample files from ```mod/hypeThemeX/sass/themes/default```
+4. Add ```mod/hypeThemeX``` as a watched folder in your SASS compiler app
+5. Modify the ```_variables.scss``` to change the color theme, and add your custom selectors to the ```theme.scss``` file
 
 
 ### Acknowledgements / Credits / References
