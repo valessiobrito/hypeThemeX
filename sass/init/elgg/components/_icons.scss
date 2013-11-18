@@ -206,7 +206,7 @@ $fa-li-width:        (30em / 14) !default;
 	border: $border;
 	a > img {
 		width: 100%;
-		height: 100%;
+		height: auto;
 		@include radius($radius);
 		@include background-clip(border);
 		@include background-size(contain);

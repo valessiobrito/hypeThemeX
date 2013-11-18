@@ -6264,7 +6264,7 @@ form .mceEditor, .elgg-form .mceEditor {
 }
 .elgg-avatar-tiny a > img {
   width: 100%;
-  height: 100%;
+  height: auto;
   -webkit-border-radius: 0;
   border-radius: 0;
   -webkit-background-clip: border;
@@ -6332,7 +6332,7 @@ form .mceEditor, .elgg-form .mceEditor {
 }
 .elgg-avatar-small a > img {
   width: 100%;
-  height: 100%;
+  height: auto;
   -webkit-border-radius: 0;
   border-radius: 0;
   -webkit-background-clip: border;
@@ -6400,7 +6400,7 @@ form .mceEditor, .elgg-form .mceEditor {
 }
 .elgg-avatar-medium a > img {
   width: 100%;
-  height: 100%;
+  height: auto;
   -webkit-border-radius: 0;
   border-radius: 0;
   -webkit-background-clip: border;
@@ -6468,7 +6468,7 @@ form .mceEditor, .elgg-form .mceEditor {
 }
 .elgg-avatar-large a > img {
   width: 100%;
-  height: 100%;
+  height: auto;
   -webkit-border-radius: 0;
   border-radius: 0;
   -webkit-background-clip: border;
