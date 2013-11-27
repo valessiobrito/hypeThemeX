@@ -8048,12 +8048,16 @@ form .mceEditor, .elgg-form .mceEditor {
 }
 .elgg-page-header > .elgg-inner {
   width: 100%;
+  *zoom: 1;
+  position: relative;
+}
+.elgg-page-header .elgg-header-itens {
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
   max-width: 62.5em;
-  *zoom: 1;
   position: relative;
 }
 .elgg-page-header > .elgg-inner:before, .elgg-page-header > .elgg-inner:after {
@@ -8079,11 +8083,6 @@ form .mceEditor, .elgg-form .mceEditor {
 **************************************** */
 .elgg-page-toolbar {
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0;
-  margin-bottom: 0;
-  max-width: 62.5em;
   *zoom: 1;
   background: #215d95;
   position: relative;
@@ -9394,6 +9393,7 @@ div#wrapper-barra-brasil {
 #barra-brasil .list-item {
   line-height: 30px;
 }
+#accessibility-participatorio { display: none; }
 .elgg-page-body .custom-index.elgg-main {
   margin-top: 20px;
 }
