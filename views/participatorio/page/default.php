@@ -57,9 +57,14 @@ if (elgg_is_logged_in()){
   } else {
     $status_login = nologin;
   }
+
+$actual_page = 'no_page_style';
+
+if(isset($vars['config']->context[0]) && !is_null($vars['config']->context[0]))
+    $actual_page = $vars['config']->context[0];
 ?>
 
-<body class="<?php echo $status_login ?>">
+<body class="<?php echo $status_login.' '.$actual_page; ?>">
 <div id="barra-brasil">
     <a href="http://brasil.gov.br" style="display: block; padding: 10px; font-size: 0.7em;">Portal do Governo Brasileiro</a></div>
 <div class="elgg-page elgg-page-default">
