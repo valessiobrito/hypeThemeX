@@ -35,7 +35,6 @@ if (elgg_is_logged_in()){
 }
 
 // render content before head so that JavaScript and CSS can be loaded. See #4032
-$topbar = elgg_view('page/elements/topbar', $vars);
 $messages = elgg_view('page/elements/messages', array('object' => $vars['sysmessages']));
 $header = elgg_view('page/elements/header', $vars);
 $body = elgg_view('page/elements/body', $vars);
@@ -71,9 +70,6 @@ if (elgg_is_logged_in()){
 	<div class="elgg-page-header">
 		<div class="elgg-inner">
             <?php echo $header; ?>
-            <div class="elgg-page-topbar">
-			    <?php echo $topbar; ?>
-            </div>
 		</div>
 	</div>
 	<a name="corpo"></a>
