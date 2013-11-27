@@ -57,16 +57,19 @@ function hj_themex_init() {
 	elgg_register_js('foundation.reveal', '/mod/hypeThemeX/javascripts/foundation/foundation.reveal.js', 'footer', 201);
 	elgg_register_js('foundation.section', '/mod/hypeThemeX/javascripts/foundation/foundation.section.js', 'footer', 201);
 	elgg_register_js('foundation.tooltips', '/mod/hypeThemeX/javascripts/foundation/foundation.tooltips.js', 'footer', 201);
-	elgg_register_js('foundation.topbar', '/mod/hypeThemeX/javascripts/foundation/foundation.topbar.js', 'footer', 201);
+    elgg_register_js('foundation.topbar', '/mod/hypeThemeX/javascripts/foundation/foundation.topbar.js', 'footer', 201);
+
+    elgg_register_js('barrabrasil', 'http://barra.brasil.gov.br/barra.js', 'footer', 300);
 
 	elgg_register_simplecache_view('js/theme/init');
 	elgg_register_js('elgg.theme', elgg_get_simplecache_url('js', 'theme/init'), 'footer', 900);
-	
+
 	elgg_load_js('modernizr');
 	elgg_load_js('jquery'); // Foundation needs higher version of jquery than that in Elgg
 	elgg_load_js('jquery-migrate');
 	elgg_load_js('jquery-ui');
-	elgg_load_js('foundation'); // loads Foundation js
+    elgg_load_js('foundation'); // loads Foundation js
+    elgg_load_js('barrabrasil'); // load Barra Brasil
 
 	elgg_load_js('elgg.theme');
 }
