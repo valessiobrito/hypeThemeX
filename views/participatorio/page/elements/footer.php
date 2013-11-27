@@ -1,10 +1,13 @@
 <?php
 
-echo elgg_view_menu('footer', array('sort_by' => 'priority', 'class' => 'elgg-menu-hz'));
+$footer_menu = elgg_view_menu('footer', array('sort_by' => 'priority', 'class' => 'elgg-menu-hz'));
 
 $site = elgg_get_site_entity();
 $site_name = $site->name;
 $site_url = elgg_get_site_url();
+
+echo '<div id="menu-footer">' . $footer_menu . '</div>';
+
 ?>
 
 
@@ -23,7 +26,7 @@ $site_url = elgg_get_site_url();
 $powered_url = elgg_get_site_url() . "_graphics/powered_by_elgg_badge_drk_bckgnd.gif";
 $c3sl_icon = $site_url . "mod/hypeThemeX/graphics/powered_by_c3sl.png";
 ?>
-<div class="mts clearfloat float-alt">
+<div class="mts clearfix float-alt">
 	<a href="http://www.c3sl.ufpr.br" target="_blank">
 		<img src="<?php echo $c3sl_icon; ?>" alt="Powered by C3SL" title="Powered and Hosted by C3SL" />
 	</a>
@@ -31,37 +34,3 @@ $c3sl_icon = $site_url . "mod/hypeThemeX/graphics/powered_by_c3sl.png";
 		<img src="<?php echo $powered_url; ?>" alt="Powered by Elgg" title="Powered by Elgg" width="106" height="15" />
 	</a>
 </div>
-
-<script type="text/javascript" language="javascript">
-$(document).ready(function(){
-      imagePreview();
-});
-this.imagePreview = function(){
-            xOffset = -20;
-            yOffset = 40;
-
-			$("a.preview").hover(function(e){
-				this.t = this.title;
-				this.title = "";
-				var c = (this.t != "") ? "<br/>" + this.t : "";
-				$("body").append("<p id='preview'><img src='"+ this.href +"' alt='Image preview' />"+ c +"</p>");
-
-				$("#preview")
-				    .css("top",(e.pageY - xOffset) + "px")
-				    .css("left",(e.pageX + yOffset) + "px")
-				    .fadeIn("slow");
-
-    		},
-
-			function(){
-				this.title = this.t;
-				$("#preview").remove();
-			});
-
-			$("a.preview").mousemove(function(e){
-				$("#preview")
-				    .css("top",(e.pageY - xOffset) + "px")
-				    .css("left",(e.pageX + yOffset) + "px");
-			});
-};
-</script>

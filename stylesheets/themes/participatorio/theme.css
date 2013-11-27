@@ -9420,3 +9420,7 @@ div#wrapper-barra-brasil {
   }
 }
 
+#menu-footer { font-size: 13px; margin-top: -35px; }
+#menu-footer li { padding: 5px; border: 1px solid #dfdfdf; background: #F1F8C9; float: right; }
+#menu-footer li a:hover { color: red; }
+
