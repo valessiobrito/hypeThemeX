@@ -9338,6 +9338,7 @@ form .mceEditor, .elgg-form .mceEditor {
 }
 
 .elgg-search {
+  position: relative;
   margin: 0;
   padding: 4px;
   background: #1c5080;
@@ -9365,6 +9366,7 @@ form .mceEditor, .elgg-form .mceEditor {
   height: auto;
   padding: 4px 10px;
   margin: 0;
+  width: 100%;
 }
 .elgg-search fieldset input[type="text"].search-input:focus {
   -webkit-box-shadow: none;
