@@ -8350,10 +8350,9 @@ form .mceEditor, .elgg-form .mceEditor {
 *************************************** */
 #login-dropdown {
   position: absolute;
-  top: 10px;
   right: 0;
   z-index: 100;
-  margin: 10px;
+  margin: 5px;
 }
 #login-dropdown .elgg-button {
   background-color: #215d95;
@@ -9412,13 +9411,13 @@ div#wrapper-barra-brasil {
   margin: 0 auto;
   text-align: right;
 }
-#sobre a {
-  color: #fff;
+#sobre li {
+  display: inline;
 }
 #sobre li a {
-  float: right;
+  color: #fff;
   padding: 0 10px;
-  border-right: 1px solid #6c9072;
+  border-right: 1px solid #9BC2A3;
 }
 #sobre .last-item a {
   padding: 0 0 0 10px;
