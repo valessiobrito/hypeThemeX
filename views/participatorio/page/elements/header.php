@@ -5,12 +5,12 @@ echo '<div class="elgg-header-itens">';
 
 $site_url = elgg_get_site_url();
 
-echo '<div id="accessibility-participatorio" >
- <p>Ir para: <a accesskey="1" href="#corpo"> Conteúdo </a>
- <a accesskey="2" href="#menu-participatorio"> Menu </a>
- <a accesskey="3" href="#busca"> Busca </a>
- <a accesskey="4" href="#footer"> Rodapé </a></p>
-</div>
+echo '<ul id="accessibility">
+    <li><a accesskey="1" href="#corpo" id="link-conteudo">Ir para o conteúdo<span>1</span></a></li>
+	<li><a accesskey="2" href="#menu" id="link-navegacao">Ir para o menu<span>2</span></a></li>
+	<li><a accesskey="3" href="#busca" id="link-buscar">Ir para a busca<span>3</span></a></li>
+	<li class="last-item"><a accesskey="4" href="#rodape" id="link-rodape">Ir para o rodapé<span>4</span></a></li>
+</ul>
 
 <ul id="actionitens">
     <li><a title="Acessibilidade" href="' . $site_url .'accessibility">Acessibilidade</a></li>
@@ -22,7 +22,7 @@ echo elgg_view('page/elements/header_logo', $vars);
 
 $search = elgg_view('search/search_box');
 if ($search) {
-    echo '<div id="header-search">' . $search . '</div>';
+    echo '<a name="busca"></a><div id="header-search">' . $search . '</div>';
 }
 
 echo '<div id="sobre">

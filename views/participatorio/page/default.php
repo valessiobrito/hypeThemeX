@@ -84,7 +84,7 @@ if(isset($vars['config']->context[0]) && !is_null($vars['config']->context[0]))
 			<?php echo $body; ?>
 		</div>
 	</div>
-	<a name="footer"></a>
+	<a name="rodape"></a>
 	<div class="elgg-page-footer">
 		<div class="elgg-inner">
 			<?php echo $footer; ?>
