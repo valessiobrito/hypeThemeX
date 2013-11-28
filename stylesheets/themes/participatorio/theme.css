@@ -8051,6 +8051,7 @@ form .mceEditor, .elgg-form .mceEditor {
   *zoom: 1;
   position: relative;
 }
+#nav-toolbar,
 .elgg-page-header .elgg-header-itens {
   width: 100%;
   margin-left: auto;
@@ -9422,6 +9423,28 @@ div#wrapper-barra-brasil {
 #sobre .last-item a {
   padding: 0 0 0 10px;
   border-right: none;
+}
+
+/* Site Actions */
+#actionitens {
+  display: block;
+  float: right;
+  clear: none;
+  border-bottom: 1px dotted #9bc2a3;
+  margin-top: 20px;
+  font-size: 0.7em;
+}
+#actionitens li {
+  display: inline;
+}
+#actionitens a {
+  color: #dcffe3;
+  text-decoration: none;
+  padding: 4px 0 4px 10px;
+  text-transform: uppercase;
+}
+#actionitens a:hover {
+  color: #fff !important;
 }
 .elgg-page-body .custom-index.elgg-main {
   margin-top: 20px;

@@ -12,11 +12,11 @@ echo '<div id="accessibility-participatorio" >
  <a accesskey="4" href="#footer"> Rodapé </a></p>
 </div>
 
-<div id="top-itens">
-    <a title="Acessibilidade" href="' . $site_url .'accessibility">Acessibilidade</a>
-    <a title="Dados Abertos" href="' . $site_url . 'opendata">Dados Abertos</a>
-    <a titile="Termos de Uso" href="' . $site_url . 'terms">Termos de Uso</a>
-</div>';
+<ul id="actionitens">
+    <li><a title="Acessibilidade" href="' . $site_url .'accessibility">Acessibilidade</a></li>
+    <li><a title="Dados Abertos" href="' . $site_url . 'opendata">Dados Abertos</a></li>
+    <li><a titile="Termos de Uso" href="' . $site_url . 'terms">Termos de Uso</a></li>
+</ul>';
 
 echo elgg_view('page/elements/header_logo', $vars);
 
