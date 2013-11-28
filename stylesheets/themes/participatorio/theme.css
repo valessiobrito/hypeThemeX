@@ -9394,6 +9394,30 @@ div#wrapper-barra-brasil {
   line-height: 30px;
 }
 #accessibility-participatorio { display: none; }
+#sobre {
+  clear: both;
+  max-width: 100% !important;
+  margin: 0;
+  padding: 5px 0;
+  font-size: 0.8em;
+}
+#sobre ul {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: right;
+}
+#sobre a {
+  color: #fff;
+}
+#sobre li a {
+  float: right;
+  padding: 0 10px;
+  border-right: 1px solid #6c9072;
+}
+#sobre .last-item a {
+  padding: 0 0 0 10px;
+  border-right: none;
+}
 .elgg-page-body .custom-index.elgg-main {
   margin-top: 20px;
 }

@@ -14,8 +14,8 @@ echo '<div id="accessibility-participatorio" >
 
 echo '<div id="top-itens" >
     <a title="Acessibilidade" href="' . $site_url .'accessibility">Acessibilidade</a>
-    <a href="' . $site_url . 'opendata">Dados Abertos</a>
-    <a href="' . $site_url . 'terms">Termos de Uso</a>
+    <a title="Dados Abertos" href="' . $site_url . 'opendata">Dados Abertos</a>
+    <a titile="Termos de Uso" href="' . $site_url . 'terms">Termos de Uso</a>
 </div>';
 
 echo elgg_view('page/elements/header_logo', $vars);
@@ -28,8 +28,8 @@ if ($search) {
 echo '<div id="sobre">
     <ul>
     <li><a href="' . $site_url . 'faq" title="Perguntas frequentes">Perguntas frequentes</a></li>
-    <li><a href="' . $site_url . 'about">Sobre</a></li>
-    <li><a href="' . $site_url . 'contact">Fale Conosco</a> </a></li>
+    <li><a href="' . $site_url . 'about" title="Sobre o Participatório">Sobre</a></li>
+    <li class="last-item"><a href="' . $site_url . 'contact" title="Fale Conosco">Fale Conosco</a> </a></li>
     </ul>
     </div>';
 
