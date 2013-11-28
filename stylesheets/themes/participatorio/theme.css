@@ -8060,6 +8060,9 @@ form .mceEditor, .elgg-form .mceEditor {
   max-width: 62.5em;
   position: relative;
 }
+.elgg-header-itens h1 {
+  width: 380px;
+}
 .elgg-page-header > .elgg-inner:before, .elgg-page-header > .elgg-inner:after {
   content: " ";
   display: table;

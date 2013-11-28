@@ -10,9 +10,9 @@ echo '<div id="accessibility-participatorio" >
  <a accesskey="2" href="#menu-participatorio"> Menu </a>
  <a accesskey="3" href="#busca"> Busca </a>
  <a accesskey="4" href="#footer"> Rodapé </a></p>
-</div>';
+</div>
 
-echo '<div id="top-itens" >
+<div id="top-itens">
     <a title="Acessibilidade" href="' . $site_url .'accessibility">Acessibilidade</a>
     <a title="Dados Abertos" href="' . $site_url . 'opendata">Dados Abertos</a>
     <a titile="Termos de Uso" href="' . $site_url . 'terms">Termos de Uso</a>
@@ -31,10 +31,7 @@ echo '<div id="sobre">
     <li><a href="' . $site_url . 'about" title="Sobre o Participatório">Sobre</a></li>
     <li class="last-item"><a href="' . $site_url . 'contact" title="Fale Conosco">Fale Conosco</a> </a></li>
     </ul>
-    </div>';
-
-echo '</div><!-- end .elgg-header-itens -->';
-
-echo elgg_view('core/account/login_dropdown');
+    </div>
+ </div><!-- end .elgg-header-itens -->';
 
 echo elgg_view('page/elements/toolbar', $vars);
