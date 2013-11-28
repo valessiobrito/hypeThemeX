@@ -50,6 +50,7 @@ $lang = get_current_language();
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $lang; ?>" lang="<?php echo $lang; ?>">
 <head>
 <?php echo elgg_view('page/elements/head', $vars); ?>
+<?php echo elgg_view('page/elements/shortcut_icon', $vars); ?>
 </head>
 <?php //identifica se esta logado e armazena em $status_login
 if (elgg_is_logged_in()){
