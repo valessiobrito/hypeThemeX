@@ -18,7 +18,9 @@ echo $item->getContent();
 if ($children) {
 	echo elgg_view('navigation/menu/topbar/section', array(
 		'items' => $children,
-		'class' => 'elgg-menu elgg-child-menu dropdown',
+       // 'class' => 'elgg-menu elgg-child-menu dropdown',
+        'class' => 'elgg-menu elgg-menu-site elgg-menu-site-more',
 	));
 }
 echo '</li>';
+

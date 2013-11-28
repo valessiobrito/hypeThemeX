@@ -9,7 +9,8 @@ foreach($vars['menu']['default'] as &$menu){
 
 echo elgg_view('navigation/menu/topbar/section', array(
     'items' => $vars['menu']['default'],
-	'class' => "elgg-menu-topbar elgg-menu-topbar-default title-area",
+//    'class' => "elgg-menu-topbar elgg-menu-topbar-default title-area",
+    'class' => "elgg-menu elgg-menu-site elgg-menu-site-default clearfix",
 	'section' => 'default',
 	'name' => 'topbar',
 ));
