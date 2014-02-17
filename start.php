@@ -1,24 +1,40 @@
 <?php
 
-$theme = elgg_get_plugin_setting('theme', 'hypeThemeX');
+/**
+ * Responsive Theme for Elgg
+ *
+ * @package hypeJunction
+ * @subpackage ThemeX
+ *
+ * @author Ismayil Khayredinov <ismayil.khayredinov@gmail.com>
+ */
+
+namespace hypeJunction\ThemeX;
+
+const PLUGIN_ID = 'hypeThemeX';
+
+$theme = elgg_get_plugin_setting('theme', PLUGIN_ID);
 if (!$theme) {
 	$theme = 'default';
 }
 
 define('ELGG_THEME', $theme);
-define('JQUERY_UI_THEME', 'smoothness');
 
-elgg_register_event_handler('init', 'system', 'hj_themex_init');
-elgg_register_event_handler('init', 'system', 'hj_themex_init_menus', 999);
+elgg_register_event_handler('init', 'system', __NAMESPACE__ . '\\init');
+elgg_register_event_handler('pagesetup', 'system', __NAMESPACE__ . '\\setup_menus', 999);
 
 /**
  * Initialize the plugin
  */
-function hj_themex_init() {
+function init() {
 
 	if (elgg_in_context('admin')) {
 		return;
 	}
+
+	elgg_extend_view('page/elements/head', 'framework/fonts/font-awesome');
+	elgg_extend_view('page/elements/head', 'framework/fonts/open-sans');
+	elgg_extend_view('page/elements/head', 'framework/metatags/viewport');
 
 	elgg_unextend_view('page/elements/header', 'search/header'); // Very annoying extention that needs to disappear
 	elgg_unextend_view('css/elgg', 'custom_index/css');
@@ -27,7 +43,6 @@ function hj_themex_init() {
 	elgg_unextend_view('css/elgg', 'profile/css');
 	elgg_unextend_view('css/elgg', 'search/css');
 
-	elgg_extend_view('page/elements/head', 'page/elements/metatags');
 
 	$jquery_ui = JQUERY_UI_THEME;
 	elgg_register_css('jquery-ui', "/mod/hypeThemeX/stylesheets/jquery-ui-themes-1.10.3/themes/$jquery_ui/jquery-ui.min.css", 300);
@@ -61,7 +76,7 @@ function hj_themex_init() {
 
 	elgg_register_simplecache_view('js/theme/init');
 	elgg_register_js('elgg.theme', elgg_get_simplecache_url('js', 'theme/init'), 'footer', 900);
-	
+
 	elgg_load_js('modernizr');
 	elgg_load_js('jquery'); // Foundation needs higher version of jquery than that in Elgg
 	elgg_load_js('jquery-migrate');
@@ -74,7 +89,7 @@ function hj_themex_init() {
 /**
  * Customize the topbar menu so that it works with Foundation
  */
-function hj_themex_init_menus() {
+function setup_menus() {
 
 	elgg_register_menu_item('topbar', array(
 		'name' => 'elgg_logo',
