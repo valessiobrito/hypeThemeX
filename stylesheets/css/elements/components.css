@@ -1,85 +1,323 @@
-/*
-Syntax error: File to import not found or unreadable: ../vendors/foundation/scss/foundation/functions.
-              Load paths:
-                D:/wamp/www/hypetest186/mod/hypeThemeX/sass
-                D:/wamp/apps/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
-                D:/wamp/apps/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
-                D:/wamp/apps/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
-                D:/wamp/apps/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
-                D:/wamp/apps/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
-                D:/wamp/apps/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
-                D:/wamp/apps/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
-                D:/wamp/apps/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
-                Compass::SpriteImporter
-                D:/wamp/apps/vendor/assets/stylesheets
-                D:/wamp/apps/vendor/assets/stylesheets
-                D:/wamp/apps/vendor/assets/stylesheets
-        on line 1 of D:/wamp/www/hypetest186/mod/hypeThemeX/sass/css/elements/../../_functions.scss
-        from line 3 of D:/wamp/www/hypetest186/mod/hypeThemeX/sass/css/elements/../../_init.scss
-        from line 1 of D:/wamp/www/hypetest186/mod/hypeThemeX/sass/css/elements/components.scss
+/* ***************************************
+	Image Block
+*************************************** */
+.elgg-image-block {
+  *zoom: 1;
+}
+.elgg-image-block:before, .elgg-image-block:after {
+  content: " ";
+  display: table;
+}
+.elgg-image-block:after {
+  clear: both;
+}
+.elgg-image-block .elgg-image {
+  float: left;
+  margin-right: 0.4375rem;
+}
+.elgg-image-block .elgg-image-alt {
+  float: right;
+  margin-left: 0.4375rem;
+}
 
-1: D:/wamp/www/hypetest186/mod/hypeThemeX/sass/css/elements/components.scss
+/* ***************************************
+	List
+*************************************** */
+.elgg-list {
+  *zoom: 1;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.elgg-list:before, .elgg-list:after {
+  content: " ";
+  display: table;
+}
+.elgg-list:after {
+  clear: both;
+}
+.elgg-list > li {
+  *zoom: 1;
+  position: relative;
+  padding: 0.4375rem;
+  border-color: #eaeaea;
+  border-style: solid;
+  border-width: 0;
+  border-top-width: 1px;
+}
+.elgg-list > li:before, .elgg-list > li:after {
+  content: " ";
+  display: table;
+}
+.elgg-list > li:after {
+  clear: both;
+}
+.elgg-list > li:first-child {
+  margin-top: 0.4375rem;
+}
+.elgg-list > li:last-child {
+  border-bottom-width: 1px;
+  margin-bottom: 0.4375rem;
+}
 
-Backtrace:
-D:/wamp/www/hypetest186/mod/hypeThemeX/sass/css/elements/../../_functions.scss:1
-D:/wamp/www/hypetest186/mod/hypeThemeX/sass/css/elements/../../_init.scss:3
-D:/wamp/www/hypetest186/mod/hypeThemeX/sass/css/elements/components.scss:1
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/import_node.rb:67:in `import'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/import_node.rb:65:in `import'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/import_node.rb:28:in `imported_file'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/import_node.rb:36:in `css_import?'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:217:in `visit_import'
-org/jruby/RubyKernel.java:2109:in `send'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:227:in `visit_import'
-org/jruby/RubyArray.java:2339:in `collect'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:227:in `visit_import'
-org/jruby/RubyKernel.java:2109:in `send'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:227:in `visit_import'
-org/jruby/RubyArray.java:2339:in `collect'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:227:in `visit_import'
-org/jruby/RubyKernel.java:2109:in `send'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-org/jruby/RubyArray.java:2339:in `collect'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:109:in `visit_children'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:121:in `with_environment'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:108:in `visit_children'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:128:in `visit_root'
-org/jruby/RubyKernel.java:2109:in `send'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
-org/jruby/RubyKernel.java:2109:in `send'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:7:in `visit'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/root_node.rb:20:in `render'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/engine.rb:315:in `_render'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/engine.rb:262:in `render'
-file:/D:/wamp/apps/compass.app/compass-app.jar!/compass_patch.rb:60:in `compile'
-D:/wamp/apps/compass.app/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-file:/D:/wamp/apps/compass.app/compass-app.jar!/compass_patch.rb:59:in `compile'
-D:/wamp/apps/compass.app/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/logger.rb:45:in `red'
-file:/D:/wamp/apps/compass.app/compass-app.jar!/compass_patch.rb:58:in `compile'
-D:/wamp/apps/compass.app/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
-D:/wamp/apps/compass.app/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/compiler.rb:103:in `run'
-org/jruby/RubyArray.java:1620:in `each'
-D:/wamp/apps/compass.app/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/compiler.rb:101:in `run'
-D:/wamp/apps/compass.app/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-D:/wamp/apps/compass.app/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
-D:/wamp/apps/compass.app/lib/ruby/compass_0.12/backport_from_0.13/lib/compass/watcher/compiler.rb:25:in `compile'
-org/jruby/RubyKernel.java:2105:in `send'
-(__FORWARDABLE__):3:in `compile'
-file:/D:/wamp/apps/compass.app/compass-app.jar!/app_watcher.rb:40:in `watch!'
-file:/D:/wamp/apps/compass.app/compass-app.jar!/ui/tray.rb:447:in `watch'
-org/jruby/RubyProc.java:270:in `call'
-org/jruby/RubyProc.java:224:in `call'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: File to import not found or unreadable: ../vendors/foundation/scss/foundation/functions.\A               Load paths:\A                 D:/wamp/www/hypetest186/mod/hypeThemeX/sass\A                 D:/wamp/apps/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets\A                 D:/wamp/apps/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets\A                 D:/wamp/apps/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets\A                 D:/wamp/apps/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets\A                 D:/wamp/apps/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets\A                 D:/wamp/apps/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets\A                 D:/wamp/apps/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass\A                 D:/wamp/apps/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss\A                 Compass::SpriteImporter\A                 D:/wamp/apps/vendor/assets/stylesheets\A                 D:/wamp/apps/vendor/assets/stylesheets\A                 D:/wamp/apps/vendor/assets/stylesheets\A         on line 1 of D:/wamp/www/hypetest186/mod/hypeThemeX/sass/css/elements/../../_functions.scss\A         from line 3 of D:/wamp/www/hypetest186/mod/hypeThemeX/sass/css/elements/../../_init.scss\A         from line 1 of D:/wamp/www/hypetest186/mod/hypeThemeX/sass/css/elements/components.scss\A \A 1: D:/wamp/www/hypetest186/mod/hypeThemeX/sass/css/elements/components.scss"; }
+/* ***************************************
+	Gallery
+*************************************** */
+.elgg-gallery {
+  *zoom: 1;
+}
+.elgg-gallery:before, .elgg-gallery:after {
+  content: " ";
+  display: table;
+}
+.elgg-gallery:after {
+  clear: both;
+}
+.elgg-gallery > li {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0.21875rem;
+  padding: 1px;
+  border: none;
+  background: none;
+}
+
+/* ***************************************
+	Tables
+*************************************** */
+/* ***************************************
+	Owner Block
+*************************************** */
+.elgg-owner-block {
+  margin-bottom: 20px;
+}
+
+/* ***************************************
+	Messages
+*************************************** */
+.elgg-message {
+  color: white;
+  font-weight: bold;
+  display: block;
+  padding: 0.21875rem 0.4375rem;
+  cursor: pointer;
+  opacity: 0.9;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.45);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.45);
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.elgg-state-success {
+  background-color: #396516;
+}
+
+.elgg-state-error {
+  background-color: #67080a;
+}
+
+.elgg-state-notice {
+  background-color: #4690d6;
+}
+
+/* ***************************************
+	River
+*************************************** */
+.elgg-list-river {
+  *zoom: 1;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.elgg-list-river:before, .elgg-list-river:after {
+  content: " ";
+  display: table;
+}
+.elgg-list-river:after {
+  clear: both;
+}
+.elgg-list-river > .elgg-river-item {
+  *zoom: 1;
+  position: relative;
+  padding: 0.4375rem;
+  border-color: #eaeaea;
+  border-style: solid;
+  border-width: 0;
+  border-top-width: 1px;
+}
+.elgg-list-river > .elgg-river-item:before, .elgg-list-river > .elgg-river-item:after {
+  content: " ";
+  display: table;
+}
+.elgg-list-river > .elgg-river-item:after {
+  clear: both;
+}
+.elgg-list-river > .elgg-river-item:first-child {
+  margin-top: 0.4375rem;
+}
+.elgg-list-river > .elgg-river-item:last-child {
+  border-bottom-width: 1px;
+  margin-bottom: 0.4375rem;
+}
+
+.elgg-river-attachments,
+.elgg-river-message,
+.elgg-river-content {
+  *zoom: 1;
+  border-left: 1px solid #dddddd;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  margin: 0.4375rem 0;
+  padding: 0 0.4375rem;
+  display: inline-block;
+  width: 100%;
+  position: relative;
+}
+.elgg-river-attachments:before, .elgg-river-attachments:after,
+.elgg-river-message:before,
+.elgg-river-message:after,
+.elgg-river-content:before,
+.elgg-river-content:after {
+  content: " ";
+  display: table;
+}
+.elgg-river-attachments:after,
+.elgg-river-message:after,
+.elgg-river-content:after {
+  clear: both;
+}
+
+.elgg-river-responses {
+  position: relative;
+}
+
+.elgg-river-attachments .elgg-avatar,
+.elgg-river-attachments .elgg-icon {
+  float: left;
+}
+
+.elgg-river-layout .elgg-input-dropdown {
+  margin: 10px 0;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.elgg-river-comments-tab {
+  display: block;
+  margin: 0.4375rem 0 0 0.4375rem;
+  padding: 0.21875rem 0.5625rem;
+  background: #f1f1f1;
+  color: #484848;
+  height: 25px;
+  position: absolute;
+  margin-top: -25px;
+  right: 0;
+  font-size: 0.8125rem;
+  -webkit-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+}
+
+.elgg-river-comments {
+  margin: 25px 0 0;
+  background: #f1f1f1;
+  font-size: 90%;
+  -webkit-border-radius: 3px 0 3px 3px;
+  border-radius: 3px 0 3px 3px;
+}
+.elgg-river-comments > li.elgg-item {
+  border-color: white;
+}
+
+.elgg-river-more {
+  font-size: 0.875rem;
+  margin-left: 0.5625rem;
+}
+
+.elgg-river-item form {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 62.5rem;
+  *zoom: 1;
+  margin-top: -0.4375rem;
+  background-color: #f1f1f1;
+  -webkit-border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px;
+}
+.elgg-river-item form:before, .elgg-river-item form:after {
+  content: " ";
+  display: table;
+}
+.elgg-river-item form:after {
+  clear: both;
+}
+
+.elgg-river-item input[type=text] {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 83.33333%;
+  float: left;
+}
+
+.elgg-river-item input[type=submit] {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 16.66667%;
+  float: left;
+}
+
+/* **************************************
+	Comments (from elgg_view_comments)
+************************************** */
+.elgg-comments {
+  margin-top: 25px;
+}
+
+.elgg-comments > form {
+  margin-top: 15px;
+}
+
+/* ***************************************
+	Image-related
+*************************************** */
+.elgg-photo {
+  line-height: 0;
+  display: inline-block;
+  border: solid 4px white;
+  max-width: 100%;
+  -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+}
+.elgg-photo:hover, .elgg-photo:focus {
+  -webkit-box-shadow: 0 0 6px 1px rgba(70, 144, 214, 0.5);
+  box-shadow: 0 0 6px 1px rgba(70, 144, 214, 0.5);
+}
+
+/* ***************************************
+	Tags
+*************************************** */
+.elgg-tags {
+  font-size: 0.875rem;
+}
+
+.elgg-tags > li {
+  float: left;
+  margin-right: 5px;
+}
+
+.elgg-tags li.elgg-tag:after {
+  content: ",";
+}
+
+.elgg-tags li.elgg-tag:last-child:after {
+  content: "";
+}
+
+.elgg-tagcloud {
+  text-align: justify;
+}

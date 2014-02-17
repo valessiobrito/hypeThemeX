@@ -1,85 +1,169 @@
-/*
-Syntax error: File to import not found or unreadable: ../vendors/foundation/scss/foundation/functions.
-              Load paths:
-                D:/wamp/www/hypetest186/mod/hypeThemeX/sass
-                D:/wamp/apps/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
-                D:/wamp/apps/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
-                D:/wamp/apps/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
-                D:/wamp/apps/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
-                D:/wamp/apps/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
-                D:/wamp/apps/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
-                D:/wamp/apps/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
-                D:/wamp/apps/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
-                Compass::SpriteImporter
-                D:/wamp/apps/vendor/assets/stylesheets
-                D:/wamp/apps/vendor/assets/stylesheets
-                D:/wamp/apps/vendor/assets/stylesheets
-        on line 1 of D:/wamp/www/hypetest186/mod/hypeThemeX/sass/css/elements/../../_functions.scss
-        from line 3 of D:/wamp/www/hypetest186/mod/hypeThemeX/sass/css/elements/../../_init.scss
-        from line 1 of D:/wamp/www/hypetest186/mod/hypeThemeX/sass/css/elements/buttons.scss
-
-1: D:/wamp/www/hypetest186/mod/hypeThemeX/sass/css/elements/buttons.scss
-
-Backtrace:
-D:/wamp/www/hypetest186/mod/hypeThemeX/sass/css/elements/../../_functions.scss:1
-D:/wamp/www/hypetest186/mod/hypeThemeX/sass/css/elements/../../_init.scss:3
-D:/wamp/www/hypetest186/mod/hypeThemeX/sass/css/elements/buttons.scss:1
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/import_node.rb:67:in `import'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/import_node.rb:65:in `import'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/import_node.rb:28:in `imported_file'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/import_node.rb:36:in `css_import?'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:217:in `visit_import'
-org/jruby/RubyKernel.java:2109:in `send'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:227:in `visit_import'
-org/jruby/RubyArray.java:2339:in `collect'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:227:in `visit_import'
-org/jruby/RubyKernel.java:2109:in `send'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:227:in `visit_import'
-org/jruby/RubyArray.java:2339:in `collect'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:227:in `visit_import'
-org/jruby/RubyKernel.java:2109:in `send'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-org/jruby/RubyArray.java:2339:in `collect'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:109:in `visit_children'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:121:in `with_environment'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:108:in `visit_children'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:128:in `visit_root'
-org/jruby/RubyKernel.java:2109:in `send'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
-org/jruby/RubyKernel.java:2109:in `send'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:7:in `visit'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/root_node.rb:20:in `render'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/engine.rb:315:in `_render'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/engine.rb:262:in `render'
-file:/D:/wamp/apps/compass.app/compass-app.jar!/compass_patch.rb:60:in `compile'
-D:/wamp/apps/compass.app/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-file:/D:/wamp/apps/compass.app/compass-app.jar!/compass_patch.rb:59:in `compile'
-D:/wamp/apps/compass.app/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/logger.rb:45:in `red'
-file:/D:/wamp/apps/compass.app/compass-app.jar!/compass_patch.rb:58:in `compile'
-D:/wamp/apps/compass.app/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
-D:/wamp/apps/compass.app/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/compiler.rb:103:in `run'
-org/jruby/RubyArray.java:1620:in `each'
-D:/wamp/apps/compass.app/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/compiler.rb:101:in `run'
-D:/wamp/apps/compass.app/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-D:/wamp/apps/compass.app/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
-D:/wamp/apps/compass.app/lib/ruby/compass_0.12/backport_from_0.13/lib/compass/watcher/compiler.rb:25:in `compile'
-org/jruby/RubyKernel.java:2105:in `send'
-(__FORWARDABLE__):3:in `compile'
-file:/D:/wamp/apps/compass.app/compass-app.jar!/app_watcher.rb:40:in `watch!'
-file:/D:/wamp/apps/compass.app/compass-app.jar!/ui/tray.rb:447:in `watch'
-org/jruby/RubyProc.java:270:in `call'
-org/jruby/RubyProc.java:224:in `call'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: File to import not found or unreadable: ../vendors/foundation/scss/foundation/functions.\A               Load paths:\A                 D:/wamp/www/hypetest186/mod/hypeThemeX/sass\A                 D:/wamp/apps/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets\A                 D:/wamp/apps/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets\A                 D:/wamp/apps/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets\A                 D:/wamp/apps/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets\A                 D:/wamp/apps/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets\A                 D:/wamp/apps/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets\A                 D:/wamp/apps/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass\A                 D:/wamp/apps/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss\A                 Compass::SpriteImporter\A                 D:/wamp/apps/vendor/assets/stylesheets\A                 D:/wamp/apps/vendor/assets/stylesheets\A                 D:/wamp/apps/vendor/assets/stylesheets\A         on line 1 of D:/wamp/www/hypetest186/mod/hypeThemeX/sass/css/elements/../../_functions.scss\A         from line 3 of D:/wamp/www/hypetest186/mod/hypeThemeX/sass/css/elements/../../_init.scss\A         from line 1 of D:/wamp/www/hypetest186/mod/hypeThemeX/sass/css/elements/buttons.scss\A \A 1: D:/wamp/www/hypetest186/mod/hypeThemeX/sass/css/elements/buttons.scss"; }
+/* **************************
+	BUTTONS
+************************** */
+.elgg-button {
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: normal;
+  margin: 0 0 0.75rem;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  padding-top: 0.5625rem;
+  padding-right: 1.125rem;
+  padding-bottom: 0.625rem;
+  padding-left: 1.125rem;
+  font-size: 0.8125rem;
+  /*     @else                            { font-size: $padding - rem-calc(2); } */
+  background-color: #4690d6;
+  border-color: #4f96d8;
+  color: white;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+.elgg-button:hover, .elgg-button:focus {
+  background-color: #4f96d8;
+}
+.elgg-button:hover, .elgg-button:focus {
+  color: white;
+}
+.elgg-button.elgg-button-large {
+  padding-top: 0.75rem;
+  padding-right: 1.5rem;
+  padding-bottom: 0.8125rem;
+  padding-left: 1.5rem;
+  font-size: 1rem;
+  /*     @else                            { font-size: $padding - rem-calc(2); } */
+}
+.elgg-button.elgg-button-small {
+  padding-top: 0.4375rem;
+  padding-right: 0.875rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.875rem;
+  font-size: 0.6875rem;
+  /*     @else                            { font-size: $padding - rem-calc(2); } */
+}
+.elgg-button.elgg-button-tiny {
+  padding-top: 0.3125rem;
+  padding-right: 0.625rem;
+  padding-bottom: 0.375rem;
+  padding-left: 0.625rem;
+  font-size: 0.5625rem;
+  /*     @else                            { font-size: $padding - rem-calc(2); } */
+}
+.elgg-button.elgg-button-submit {
+  background-color: #2a77bf;
+  border-color: #2d7eca;
+  color: white;
+}
+.elgg-button.elgg-button-submit:hover, .elgg-button.elgg-button-submit:focus {
+  background-color: #2d7eca;
+}
+.elgg-button.elgg-button-submit:hover, .elgg-button.elgg-button-submit:focus {
+  color: white;
+}
+.elgg-button.elgg-button-action {
+  background-color: #2a77bf;
+  border-color: #2d7eca;
+  color: white;
+}
+.elgg-button.elgg-button-action:hover, .elgg-button.elgg-button-action:focus {
+  background-color: #2d7eca;
+}
+.elgg-button.elgg-button-action:hover, .elgg-button.elgg-button-action:focus {
+  color: white;
+}
+.elgg-button.elgg-button-cancel {
+  background-color: #999999;
+  border-color: #9e9e9e;
+  color: white;
+}
+.elgg-button.elgg-button-cancel:hover, .elgg-button.elgg-button-cancel:focus {
+  background-color: #9e9e9e;
+}
+.elgg-button.elgg-button-cancel:hover, .elgg-button.elgg-button-cancel:focus {
+  color: white;
+}
+.elgg-button.elgg-button-delete {
+  background-color: #67080a;
+  border-color: #7a090c;
+  color: white;
+}
+.elgg-button.elgg-button-delete:hover, .elgg-button.elgg-button-delete:focus {
+  background-color: #7a090c;
+}
+.elgg-button.elgg-button-delete:hover, .elgg-button.elgg-button-delete:focus {
+  color: white;
+}
+.elgg-button.elgg-button-dropdown {
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: normal;
+  margin: 0 0 0.75rem;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  padding-top: 0.5625rem;
+  padding-right: 1.125rem;
+  padding-bottom: 0.625rem;
+  padding-left: 1.125rem;
+  font-size: 0.8125rem;
+  /*     @else                            { font-size: $padding - rem-calc(2); } */
+  background-color: #4690d6;
+  border-color: #4f96d8;
+  color: white;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  position: relative;
+  padding-right: 3.5625rem;
+}
+.elgg-button.elgg-button-dropdown:hover, .elgg-button.elgg-button-dropdown:focus {
+  background-color: #4f96d8;
+}
+.elgg-button.elgg-button-dropdown:hover, .elgg-button.elgg-button-dropdown:focus {
+  color: white;
+}
+.elgg-button.elgg-button-dropdown:before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  display: block;
+  border-style: solid;
+  border-color: white transparent transparent transparent;
+  top: 50%;
+}
+.elgg-button.elgg-button-dropdown:before {
+  border-width: 0.375rem;
+  right: 1.40625rem;
+  margin-top: -0.15625rem;
+}
+.elgg-button.elgg-button-dropdown:before {
+  border-color: white transparent transparent transparent;
+}
+.elgg-button.elgg-state-disabled {
+  background-color: #dedede;
+  border-color: #e0e0e0;
+  color: #333333;
+  cursor: default;
+  opacity: 0.7;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.elgg-button.elgg-state-disabled:hover, .elgg-button.elgg-state-disabled:focus {
+  background-color: #e0e0e0;
+}
+.elgg-button.elgg-state-disabled:hover, .elgg-button.elgg-state-disabled:focus {
+  color: #333333;
+}
+.elgg-button.elgg-state-disabled:hover, .elgg-button.elgg-state-disabled:focus {
+  background-color: #dedede;
+}

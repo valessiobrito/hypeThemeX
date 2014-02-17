@@ -1,85 +1,238 @@
-/*
-Syntax error: File to import not found or unreadable: ../vendors/foundation/scss/foundation/functions.
-              Load paths:
-                D:/wamp/www/hypetest186/mod/hypeThemeX/sass
-                D:/wamp/apps/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
-                D:/wamp/apps/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
-                D:/wamp/apps/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
-                D:/wamp/apps/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
-                D:/wamp/apps/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
-                D:/wamp/apps/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
-                D:/wamp/apps/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass
-                D:/wamp/apps/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
-                Compass::SpriteImporter
-                D:/wamp/apps/vendor/assets/stylesheets
-                D:/wamp/apps/vendor/assets/stylesheets
-                D:/wamp/apps/vendor/assets/stylesheets
-        on line 1 of D:/wamp/www/hypetest186/mod/hypeThemeX/sass/css/elements/../../_functions.scss
-        from line 3 of D:/wamp/www/hypetest186/mod/hypeThemeX/sass/css/elements/../../_init.scss
-        from line 1 of D:/wamp/www/hypetest186/mod/hypeThemeX/sass/css/elements/helpers.scss
+.hidden {
+  display: none;
+}
 
-1: D:/wamp/www/hypetest186/mod/hypeThemeX/sass/css/elements/helpers.scss
+.centered {
+  margin: 0 auto;
+}
 
-Backtrace:
-D:/wamp/www/hypetest186/mod/hypeThemeX/sass/css/elements/../../_functions.scss:1
-D:/wamp/www/hypetest186/mod/hypeThemeX/sass/css/elements/../../_init.scss:3
-D:/wamp/www/hypetest186/mod/hypeThemeX/sass/css/elements/helpers.scss:1
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/import_node.rb:67:in `import'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/import_node.rb:65:in `import'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/import_node.rb:28:in `imported_file'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/import_node.rb:36:in `css_import?'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:217:in `visit_import'
-org/jruby/RubyKernel.java:2109:in `send'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:227:in `visit_import'
-org/jruby/RubyArray.java:2339:in `collect'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:227:in `visit_import'
-org/jruby/RubyKernel.java:2109:in `send'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:227:in `visit_import'
-org/jruby/RubyArray.java:2339:in `collect'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:227:in `visit_import'
-org/jruby/RubyKernel.java:2109:in `send'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-org/jruby/RubyArray.java:2339:in `collect'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:109:in `visit_children'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:121:in `with_environment'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:108:in `visit_children'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:128:in `visit_root'
-org/jruby/RubyKernel.java:2109:in `send'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
-org/jruby/RubyKernel.java:2109:in `send'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/visitors/perform.rb:7:in `visit'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/tree/root_node.rb:20:in `render'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/engine.rb:315:in `_render'
-D:/wamp/apps/compass.app/lib/ruby/compass_common/sass-3.2.10/lib/sass/../sass/engine.rb:262:in `render'
-file:/D:/wamp/apps/compass.app/compass-app.jar!/compass_patch.rb:60:in `compile'
-D:/wamp/apps/compass.app/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-file:/D:/wamp/apps/compass.app/compass-app.jar!/compass_patch.rb:59:in `compile'
-D:/wamp/apps/compass.app/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/logger.rb:45:in `red'
-file:/D:/wamp/apps/compass.app/compass-app.jar!/compass_patch.rb:58:in `compile'
-D:/wamp/apps/compass.app/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
-D:/wamp/apps/compass.app/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/compiler.rb:103:in `run'
-org/jruby/RubyArray.java:1620:in `each'
-D:/wamp/apps/compass.app/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/compiler.rb:101:in `run'
-D:/wamp/apps/compass.app/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-D:/wamp/apps/compass.app/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
-D:/wamp/apps/compass.app/lib/ruby/compass_0.12/backport_from_0.13/lib/compass/watcher/compiler.rb:25:in `compile'
-org/jruby/RubyKernel.java:2105:in `send'
-(__FORWARDABLE__):3:in `compile'
-file:/D:/wamp/apps/compass.app/compass-app.jar!/app_watcher.rb:40:in `watch!'
-file:/D:/wamp/apps/compass.app/compass-app.jar!/ui/tray.rb:447:in `watch'
-org/jruby/RubyProc.java:270:in `call'
-org/jruby/RubyProc.java:224:in `call'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: File to import not found or unreadable: ../vendors/foundation/scss/foundation/functions.\A               Load paths:\A                 D:/wamp/www/hypetest186/mod/hypeThemeX/sass\A                 D:/wamp/apps/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets\A                 D:/wamp/apps/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets\A                 D:/wamp/apps/compass.app/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets\A                 D:/wamp/apps/compass.app/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets\A                 D:/wamp/apps/compass.app/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets\A                 D:/wamp/apps/compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets\A                 D:/wamp/apps/compass.app/lib/ruby/compass_extensions/susy-1.0.9/sass\A                 D:/wamp/apps/compass.app/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss\A                 Compass::SpriteImporter\A                 D:/wamp/apps/vendor/assets/stylesheets\A                 D:/wamp/apps/vendor/assets/stylesheets\A                 D:/wamp/apps/vendor/assets/stylesheets\A         on line 1 of D:/wamp/www/hypetest186/mod/hypeThemeX/sass/css/elements/../../_functions.scss\A         from line 3 of D:/wamp/www/hypetest186/mod/hypeThemeX/sass/css/elements/../../_init.scss\A         from line 1 of D:/wamp/www/hypetest186/mod/hypeThemeX/sass/css/elements/helpers.scss\A \A 1: D:/wamp/www/hypetest186/mod/hypeThemeX/sass/css/elements/helpers.scss"; }
+.center {
+  text-align: center;
+}
+
+.float {
+  float: left;
+  margin-right: 0px;
+}
+
+.float-alt {
+  float: right;
+  margin-left: 0px;
+}
+
+.link {
+  cursor: pointer;
+}
+
+.elgg-discover .elgg-discoverable {
+  display: none;
+}
+
+.elgg-discover:hover .elgg-discoverable {
+  display: block;
+}
+
+.elgg-transition:hover {
+  opacity: .7;
+}
+
+/***************************************
+*	BORDERS AND SEPARATORS
+***************************************/
+.elgg-border-plain {
+  border: 1px solid #e2e2e2;
+}
+
+.elgg-border-transition {
+  border: 1px solid #e2e2e2;
+}
+
+.elgg-divide-top {
+  border-width: 1px 0px 0px 0px;
+  border-style: solid;
+  border-color: #dddddd;
+}
+
+.elgg-divide-bottom {
+  border-width: 0px 0px 1px 0px;
+  border-style: solid;
+  border-color: #dddddd;
+}
+
+.elgg-divide-left {
+  border-width: 0px 0px 0px 1px;
+  border-style: solid;
+  border-color: #dddddd;
+}
+
+.elgg-divide-right {
+  border-width: 0px 1px 0px 0px;
+  border-style: solid;
+  border-color: #dddddd;
+}
+
+***************************************
+* PADDING
+***************************************
+.pan {
+  padding: 0;
+}
+
+.prn, .phn {
+  padding-right: 0;
+}
+
+.pln, .phn {
+  padding-left: 0;
+}
+
+.ptn, .pvn {
+  padding-top: 0;
+}
+
+.pbn, .pvn {
+  padding-bottom: 0;
+}
+
+.pas {
+  padding: 0.4375rem;
+}
+
+.prs, .phs {
+  padding-right: 0.4375rem;
+}
+
+.pls, .phs {
+  padding-left: 0.4375rem;
+}
+
+.pts, .pvs {
+  padding-top: 0.4375rem;
+}
+
+.pbs, .pvs {
+  padding-bottom: 0.4375rem;
+}
+
+.pam {
+  padding: 0.5625rem;
+}
+
+.prm, .phm {
+  padding-right: 0.5625rem;
+}
+
+.plm, .phm {
+  padding-left: 0.5625rem;
+}
+
+.ptm, .pvm {
+  padding-top: 0.5625rem;
+}
+
+.pbm, .pvm {
+  padding-bottom: 0.5625rem;
+}
+
+.pal {
+  padding: 0.75rem;
+}
+
+.prl, .phl {
+  padding-right: 0.75rem;
+}
+
+.pll, .phl {
+  padding-left: 0.75rem;
+}
+
+.ptl, .pvl {
+  padding-top: 0.75rem;
+}
+
+.pbl, .pvl {
+  padding-bottom: 0.75rem;
+}
+
+***************************************
+* MARGINS
+***************************************
+.man {
+  margin: 0;
+}
+
+.mrn, .mhn {
+  margin-right: 0;
+}
+
+.mln, .mhn {
+  margin-left: 0;
+}
+
+.mtn, .mvn {
+  margin-top: 0;
+}
+
+.mbn, .mvn {
+  margin-bottom: 0;
+}
+
+.mas {
+  margin: 0.4375rem;
+}
+
+.mrs, .mhs {
+  margin-right: 0.4375rem;
+}
+
+.mls, .mhs {
+  margin-left: 0.4375rem;
+}
+
+.mts, .mvs {
+  margin-top: 0.4375rem;
+}
+
+.mbs, .mvs {
+  margin-bottom: 0.4375rem;
+}
+
+.mam {
+  margin: 0.5625rem;
+}
+
+.mrm, .mhm {
+  margin-right: 0.5625rem;
+}
+
+.mlm, .mhm {
+  margin-left: 0.5625rem;
+}
+
+.mtm, .mvm {
+  margin-top: 0.5625rem;
+}
+
+.mbm, .mvm {
+  margin-bottom: 0.5625rem;
+}
+
+.mal {
+  margin: 0.75rem;
+}
+
+.mrl, .mhl {
+  margin-right: 0.75rem;
+}
+
+.mll, .mhl {
+  margin-left: 0.75rem;
+}
+
+.mtl, .mvl {
+  margin-top: 0.75rem;
+}
+
+.mbl, .mvl {
+  margin-bottom: 0.75rem;
+}
