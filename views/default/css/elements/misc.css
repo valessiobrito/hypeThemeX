@@ -410,7 +410,7 @@ meta.foundation-mq-topbar {
 #avatar-croppingtool {
   display: none;
 }
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 64.063em) {
   #avatar-croppingtool {
     display: block;
   }

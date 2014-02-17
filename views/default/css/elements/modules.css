@@ -755,6 +755,9 @@ meta.foundation-mq-topbar {
 .elgg-module-widget > .elgg-foot:after {
   clear: both;
 }
+.elgg-module-widget > .elgg-head {
+  line-height: 2.5rem;
+}
 .elgg-module-widget.elgg-state-draggable:hover {
   -webkit-box-shadow: 0 0 4px 1px rgba(196, 196, 196, 0.5);
   -moz-box-shadow: 0 0 4px 1px rgba(196, 196, 196, 0.5);

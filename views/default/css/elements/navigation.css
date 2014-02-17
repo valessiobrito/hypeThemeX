@@ -1126,7 +1126,7 @@ meta.foundation-mq-topbar {
   position: absolute;
   top: 0;
   display: inline-block;
-  line-height: 40px;
+  line-height: 2.5rem;
 }
 .elgg-menu-widget li a:not(.elgg-button) {
   color: #aaaaaa;

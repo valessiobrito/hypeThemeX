@@ -415,13 +415,8 @@ ol, ul {
   color: white;
   font-weight: bold;
   text-shadow: 1px 1px 0 black;
-  font-size: 1.25rem;
-  padding: 0.625rem;
-}
-@media only screen and (min-width: 40.063em) {
-  .elgg-heading-site, .elgg-heading-site:hover {
-    font-size: 1.5625rem;
-  }
+  font-size: 2.5rem;
+  padding: 1.25rem;
 }
 
 .elgg-heading-main, .elgg-heading-main:hover {
