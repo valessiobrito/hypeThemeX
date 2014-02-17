@@ -487,15 +487,15 @@ meta.foundation-mq-topbar {
 }
 
 .elgg-state-success {
-  background-color: #43ac6a;
+  background-color: #396516;
 }
 
 .elgg-state-error {
-  background-color: #f04124;
+  background-color: #67080a;
 }
 
 .elgg-state-notice {
-  background-color: #008cba;
+  background-color: #4690d6;
 }
 
 /* ***************************************
@@ -671,8 +671,8 @@ meta.foundation-mq-topbar {
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
 }
 .elgg-photo:hover, .elgg-photo:focus {
-  -webkit-box-shadow: 0 0 6px 1px rgba(0, 140, 186, 0.5);
-  box-shadow: 0 0 6px 1px rgba(0, 140, 186, 0.5);
+  -webkit-box-shadow: 0 0 6px 1px rgba(70, 144, 214, 0.5);
+  box-shadow: 0 0 6px 1px rgba(70, 144, 214, 0.5);
 }
 
 /* ***************************************

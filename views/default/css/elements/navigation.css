@@ -381,7 +381,7 @@ meta.foundation-mq-topbar {
 .elgg-pagination {
   display: block;
   height: 1.5rem;
-  margin-left: -0.3125rem;
+  margin-left: 0.625rem;
   font-size: 1.25rem;
 }
 .elgg-pagination li {
@@ -392,14 +392,14 @@ meta.foundation-mq-topbar {
 }
 .elgg-pagination li a {
   display: block;
-  padding: 0.0625rem 0.625rem 0.0625rem;
-  color: #999999;
+  padding: 0.0625rem 0.4375rem 0.0625rem;
+  color: #4690d6;
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }
 .elgg-pagination li:hover a,
 .elgg-pagination li a:focus {
-  background: #e6e6e6;
+  background: #4690d6;
 }
 .elgg-pagination li.unavailable a {
   cursor: default;
@@ -409,13 +409,13 @@ meta.foundation-mq-topbar {
   background: transparent;
 }
 .elgg-pagination li.current a {
-  background: #008cba;
+  background: #4690d6;
   color: white;
   font-weight: bold;
   cursor: default;
 }
 .elgg-pagination li.current a:hover, .elgg-pagination li.current a:focus {
-  background: #008cba;
+  background: #4690d6;
 }
 .elgg-pagination li {
   float: left;
@@ -427,7 +427,7 @@ meta.foundation-mq-topbar {
 .elgg-pagination li a, .elgg-pagination li span {
   line-height: 1.5rem;
   font-size: 0.875rem;
-  padding: 0.0625rem 0.625rem 0.0625rem;
+  padding: 0.0625rem 0.4375rem 0.0625rem;
   display: block;
   -webkit-border-radius: 3px;
   border-radius: 3px;
@@ -440,7 +440,7 @@ meta.foundation-mq-topbar {
 }
 .elgg-pagination li.elgg-state-selected > *, .elgg-pagination li a:hover {
   color: white;
-  background: #008cba;
+  background: #4690d6;
 }
 
 .elgg-htabs {
@@ -502,7 +502,7 @@ meta.foundation-mq-topbar {
   padding: 0.875rem 0;
   list-style-type: none;
   list-style-position: inside;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 .elgg-vtabs li {
   margin: 0 0 0.4375rem 0;
@@ -510,15 +510,15 @@ meta.foundation-mq-topbar {
 }
 .elgg-vtabs li a:not(.button) {
   display: block;
-  color: #008cba;
+  color: #4690d6;
 }
 .elgg-vtabs li a:not(.button):hover, .elgg-vtabs li a:not(.button):focus {
-  color: #1cc7ff;
+  color: #7eb1e2;
 }
 .elgg-vtabs li.active > a:first-child:not(.button) {
-  color: #1cc7ff;
+  color: #7eb1e2;
   font-weight: normal;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 .elgg-vtabs li.divider {
   border-top: 1px solid;
@@ -530,14 +530,14 @@ meta.foundation-mq-topbar {
 
 .elgg-breadcrumbs {
   display: block;
-  padding: 0.5625rem 0.875rem 0.5625rem;
+  padding: 0.4375rem 0.5625rem;
   overflow: hidden;
   margin-left: 0;
   list-style: none;
   border-style: solid;
   border-width: 1px;
-  background-color: #f4f4f4;
-  border-color: gainsboro;
+  background-color: #f7f7f7;
+  border-color: #dddddd;
 }
 .elgg-breadcrumbs li {
   margin: 0;
@@ -551,7 +551,7 @@ meta.foundation-mq-topbar {
 .elgg-breadcrumbs li a,
 .elgg-breadcrumbs li span {
   text-transform: uppercase;
-  color: #008cba;
+  color: #4690d6;
 }
 .elgg-breadcrumbs li.current {
   cursor: default;
@@ -579,7 +579,7 @@ meta.foundation-mq-topbar {
 .elgg-breadcrumbs li:before {
   content: "/";
   color: #aaaaaa;
-  margin: 0 0.75rem;
+  margin: 0 0.5625rem;
   position: relative;
   top: 1px;
 }
@@ -623,6 +623,7 @@ meta.foundation-mq-topbar {
 }
 .elgg-menu-topbar li {
   position: relative;
+  display: inline-block;
 }
 .elgg-menu-topbar .elgg-icon {
   font-size: 1.3125rem;
@@ -653,7 +654,7 @@ meta.foundation-mq-topbar {
   color: white;
 }
 .elgg-menu-topbar li:not(.elgg-menu-item-toggle) > a:not(.elgg-button) > .elgg-icon + span {
-  background: #f04124;
+  background: #67080a;
   color: white;
   height: 1.5625rem;
   line-height: 1.5625rem;
@@ -692,7 +693,7 @@ meta.foundation-mq-topbar {
   	margin-right: 15px;
   	top: 0;
   	left: 15px;
-  	font-size: $topbar-link-font-size + emCalc(8px);
+  	font-size: $topbar-link-font-size + rem-calc(8px);
   	a h1 {
   	line-height: $topbar-height;
   	overflow: hidden;
@@ -776,7 +777,9 @@ meta.foundation-mq-topbar {
 }
 .elgg-menu-site li:hover, .elgg-menu-site .elgg-state-selected {
   background: #111111;
-  @inlude single-transition;
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
 }
 .elgg-menu-site li a {
   font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
@@ -837,6 +840,8 @@ meta.foundation-mq-topbar {
   padding: 0;
   list-style: none;
   overflow: hidden;
+  float: right;
+  margin-left: 0.75rem;
   margin-right: 0.9375rem;
 }
 .elgg-menu-title > li {
@@ -916,7 +921,7 @@ meta.foundation-mq-topbar {
   padding: 0.875rem 0;
   list-style-type: none;
   list-style-position: inside;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 .elgg-menu-page li, .elgg-menu-owner-block li {
   margin: 0 0 0.4375rem 0;
@@ -924,15 +929,15 @@ meta.foundation-mq-topbar {
 }
 .elgg-menu-page li a:not(.button), .elgg-menu-owner-block li a:not(.button) {
   display: block;
-  color: #008cba;
+  color: #4690d6;
 }
 .elgg-menu-page li a:not(.button):hover, .elgg-menu-page li a:not(.button):focus, .elgg-menu-owner-block li a:not(.button):hover, .elgg-menu-owner-block li a:not(.button):focus {
-  color: #1cc7ff;
+  color: #7eb1e2;
 }
 .elgg-menu-page li.active > a:first-child:not(.button), .elgg-menu-owner-block li.active > a:first-child:not(.button) {
-  color: #1cc7ff;
+  color: #7eb1e2;
   font-weight: normal;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 .elgg-menu-page li.divider, .elgg-menu-owner-block li.divider {
   border-top: 1px solid;
@@ -947,7 +952,7 @@ meta.foundation-mq-topbar {
   border-radius: 3px;
 }
 .elgg-menu-page li.elgg-state-selected > a:first-child, .elgg-menu-page li > a:first-child:hover, .elgg-menu-owner-block li.elgg-state-selected > a:first-child, .elgg-menu-owner-block li > a:first-child:hover {
-  background: #008cba;
+  background: #4690d6;
   color: white;
   font-weight: normal;
 }
@@ -1088,7 +1093,7 @@ meta.foundation-mq-topbar {
   vertical-align: middle;
 }
 .elgg-menu-entity li a:hover, .elgg-menu-entity li span:hover, .elgg-menu-annotation li a:hover, .elgg-menu-annotation li span:hover, .elgg-menu-river li a:hover, .elgg-menu-river li span:hover {
-  color: #008cba;
+  color: #4690d6;
 }
 @media only screen and (min-width: 40.063em) {
   .elgg-menu-entity li a, .elgg-menu-entity li span, .elgg-menu-annotation li a, .elgg-menu-annotation li span, .elgg-menu-river li a, .elgg-menu-river li span {
@@ -1127,7 +1132,7 @@ meta.foundation-mq-topbar {
   color: #aaaaaa;
 }
 .elgg-menu-widget li a:not(.elgg-button) .elgg-icon:hover, .elgg-menu-widget li a:not(.elgg-button):hover {
-  color: #008cba;
+  color: #4690d6;
 }
 .elgg-menu-widget li.elgg-menu-item-collapse {
   left: 5px;

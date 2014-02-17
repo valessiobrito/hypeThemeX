@@ -3,9 +3,8 @@
 	elgg.provide('elgg.theme');
 
 	elgg.theme.init = function() {
-		$.migrateMute = true;
+		//$.migrateMute = true;
 		$(document).foundation();
-
 
 		// Make More menu item respond to clicks
 		$('.elgg-menu-site li.elgg-more')

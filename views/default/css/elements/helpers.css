@@ -413,9 +413,9 @@ meta.foundation-mq-topbar {
   opacity: .7;
 }
 
-***************************************
-* BORDERS AND SEPARATORS
-***************************************
+/***************************************
+*	BORDERS AND SEPARATORS
+***************************************/
 .elgg-border-plain {
   border: 1px solid #e2e2e2;
 }

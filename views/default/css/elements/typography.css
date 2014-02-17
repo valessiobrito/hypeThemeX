@@ -384,19 +384,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 2.75rem;
+  font-size: 1.875rem;
 }
 
 h2 {
-  font-size: 2.3125rem;
+  font-size: 1.5rem;
 }
 
 h3 {
-  font-size: 1.6875rem;
+  font-size: 1.125rem;
 }
 
 h4 {
-  font-size: 1.4375rem;
+  font-size: 1rem;
 }
 
 acronym {
@@ -433,7 +433,7 @@ ol, ul {
 }
 
 .elgg-heading-basic {
-  color: #222222;
+  color: #444444;
   font-size: 1.125rem;
 }
 

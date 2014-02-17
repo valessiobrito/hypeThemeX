@@ -484,6 +484,7 @@ meta.foundation-mq-topbar {
 }
 .elgg-page-body > .elgg-inner .elgg-layout > * {
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 /* ***************************************
@@ -583,7 +584,8 @@ meta.foundation-mq-topbar {
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
   width: 100%;
-  float: left;
+  float: right;
+  float: right;
 }
 @media only screen and (min-width: 40.063em) {
   .elgg-layout-one-sidebar .elgg-main {
@@ -601,7 +603,8 @@ meta.foundation-mq-topbar {
     float: right;
     left: 75%;
     right: auto;
-    float: left;
+    float: right;
+    border-left: 1px solid #dddddd;
   }
 }
 
