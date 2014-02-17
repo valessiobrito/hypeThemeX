@@ -3,7 +3,7 @@
 $menu = elgg_view_menu('site');
 $search = elgg_view('search/search_box');
 
-echo '<nav class="elgg-page-toolbar sticky">';
+echo '<nav class="elgg-page-toolbar">';
 if ($search) {
 	echo '<div class="elgg-col elgg-col-3of4">' . $menu . '</div>';
 	echo '<div class="elgg-col elgg-col-1of4">' . $search . '</div>';

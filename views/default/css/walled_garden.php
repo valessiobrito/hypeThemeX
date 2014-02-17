@@ -1,3 +1,3 @@
-/*
-* Placeholder for other plugins to extend this view
-*/
+<?php
+
+readfile(__DIR__ . '/walled_garden.css');
