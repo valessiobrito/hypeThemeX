@@ -70,6 +70,9 @@
 .elgg-page-toolbar .elgg-col {
   padding: 0;
 }
+.elgg-page-toolbar .elgg-col-3of4 {
+  margin-right: -2px;
+}
 
 /* ***************************************
 	PAGE BODY
@@ -95,8 +98,7 @@
   *zoom: 1;
   margin-top: -1px;
   background: white;
-  border: 1px solid #dddddd;
-  border-top: none;
+  border-bottom: 1px solid #dddddd;
 }
 .elgg-page-body > .elgg-inner:before, .elgg-page-body > .elgg-inner:after {
   content: " ";
@@ -105,9 +107,20 @@
 .elgg-page-body > .elgg-inner:after {
   clear: both;
 }
+@media only screen and (min-width: 40.063em) {
+  .elgg-page-body > .elgg-inner {
+    border: 1px solid #dddddd;
+    border-top: none;
+  }
+}
 .elgg-page-body > .elgg-inner .elgg-layout > * {
   padding-top: 30px;
   padding-bottom: 30px;
+}
+@media only screen and (min-width: 40.063em) {
+  .elgg-page-body > .elgg-inner .elgg-layout > * {
+    min-height: 800px;
+  }
 }
 
 /* ***************************************
@@ -218,6 +231,7 @@
     right: 25%;
     left: auto;
     float: left;
+    border-right: 1px solid #dddddd;
   }
   .elgg-layout-one-sidebar .elgg-sidebar {
     padding-left: 0.9375rem;
@@ -227,7 +241,6 @@
     left: 75%;
     right: auto;
     float: right;
-    border-left: 1px solid #dddddd;
   }
 }
 

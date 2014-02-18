@@ -5,6 +5,7 @@
   display: block;
   height: 1.5rem;
   margin-left: 0.625rem;
+  text-align: center;
   font-size: 1.25rem;
 }
 .elgg-pagination li {
@@ -45,6 +46,8 @@
   display: block;
 }
 .elgg-pagination li {
+  float: none;
+  display: inline-block;
   padding: 0;
 }
 .elgg-pagination li a, .elgg-pagination li span {
@@ -640,8 +643,8 @@
 }
 .elgg-menu-entity li a, .elgg-menu-entity li span, .elgg-menu-annotation li a, .elgg-menu-annotation li span, .elgg-menu-river li a, .elgg-menu-river li span {
   color: #b6b6b6;
-  font-size: 1.125rem;
-  line-height: 1.25rem;
+  font-size: 1rem;
+  line-height: 1.125rem;
   display: inline-block;
   vertical-align: middle;
 }
@@ -650,7 +653,7 @@
 }
 @media only screen and (min-width: 40.063em) {
   .elgg-menu-entity li a, .elgg-menu-entity li span, .elgg-menu-annotation li a, .elgg-menu-annotation li span, .elgg-menu-river li a, .elgg-menu-river li span {
-    font-size: 1rem;
+    font-size: 0.875rem;
     line-height: 1.125rem;
   }
 }

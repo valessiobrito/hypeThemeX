@@ -2,29 +2,36 @@
   min-height: 12.5rem;
 }
 .messages-container .elgg-list > .elgg-item {
-  padding: 2px 0;
+  padding: 0;
+  font-size: 0.875rem;
+  line-height: 1rem;
 }
 
 .message {
   position: relative;
-  padding: 0.4375rem;
+  padding: 5px 10px;
+  background: #f4f4f4;
 }
 .message a {
   color: #666;
+  font-weight: normal;
 }
 .message.unread {
-  background: #e0e0e0;
+  background: #fff;
+  font-weight: bold;
 }
 .message.unread a {
-  color: #4690d6;
+  color: #666;
+  font-weight: bold;
 }
 .message > .elgg-body .messages-delete {
   position: absolute;
   right: 0;
   top: 0;
-  margin: -4px 4px 0 0;
+  margin: 0;
   padding: 2px 4px;
-  background: #4690d6;
+  background: #dddddd;
+  color: #67080a;
   line-height: 25px;
   text-align: center;
 }
@@ -32,7 +39,8 @@
   color: white;
 }
 .message > .elgg-body .messages-delete:hover {
-  background: #4f96d8;
+  background: #67080a;
+  color: white;
   -webkit-transition: all 300ms ease-out;
   -moz-transition: all 300ms ease-out;
   transition: all 300ms ease-out;
@@ -40,15 +48,15 @@
 .message > .elgg-body .messages-timestamp {
   font-weight: normal;
   position: absolute;
-  right: 24px;
-  top: 0;
-  margin: -4px 4px 0 0;
-  padding: 2px 8px;
+  right: 0;
+  top: auto;
+  bottom: 0;
+  margin: 0;
+  padding: 8px;
   line-height: 25px;
-  background: #eaeaea;
 }
 .message > .elgg-body .messages-owner {
-  min-height: 35px;
+  min-height: 25px;
 }
 .message > .elgg-body .messages-subject {
   margin-left: 32px;

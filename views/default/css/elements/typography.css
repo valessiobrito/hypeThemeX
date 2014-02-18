@@ -4,6 +4,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.4;
   margin-top: 0;
   font-weight: normal;
+  word-break: break-all;
 }
 
 h1 {
@@ -47,6 +48,7 @@ ol, ul {
   padding-right: 0.9375rem;
   width: 66.66667%;
   float: left;
+  padding-left: 0;
   color: #4690d6;
 }
 
@@ -57,8 +59,8 @@ ol, ul {
 
 .elgg-subtext {
   color: #2f2f2f;
-  font-size: 0.875rem;
-  line-height: 1.2em;
+  font-size: 0.8125rem;
+  line-height: 0.9375rem;
   font-style: italic;
 }
 

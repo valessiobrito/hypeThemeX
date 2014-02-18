@@ -1726,7 +1726,7 @@
 }
 
 /* ***************************************
-	ICONS
+				ICONS
 *************************************** */
 .elgg-icon-arrow-left:before {
   content: "\f060";
@@ -1970,7 +1970,7 @@
 }
 
 /* ***************************************
-	AVATAR ICONS
+			AVATAR ICONS
 *************************************** */
 .elgg-avatar-tiny {
   position: relative;
@@ -2242,4 +2242,12 @@
   .elgg-avatar-large > .elgg-icon-hover-menu {
     display: none;
   }
+}
+
+/* ***************************************
+			DISTINCT CASES
+*************************************** */
+.elgg-icon-push-pin-alt + a,
+.elgg-icon-tag + a {
+  margin-left: 10px;
 }
