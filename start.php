@@ -38,7 +38,7 @@ function init() {
 	elgg_register_js('jquery-migrate', '/mod/' . PLUGIN_ID . '/vendors/jquery/js/jquery-migrate-1.2.1.min.js', 'head', 130);
 	elgg_register_js('jquery-ui', '/mod/' . PLUGIN_ID . '/vendors/jquery/js/jquery-ui-1.10.4.min.js', 'head', 140);
 	elgg_register_css('jquery-ui', '/mod/' . PLUGIN_ID . '/vendors/jquery/css/smoothness/jquery-ui-1.10.4.min.css');
-	
+
 	elgg_register_js('foundation', '/mod/' . PLUGIN_ID . '/vendors/foundation/js/foundation.min.js', 'footer', 200);
 
 	elgg_register_simplecache_view('js/theme/init');
@@ -62,18 +62,23 @@ function init() {
  */
 function setup_menus() {
 
+	elgg_unregister_menu_item('topbar', 'elgg_logo');
+
 	elgg_register_menu_item('topbar', array(
-		'name' => 'elgg_logo',
-		'href' => elgg_get_site_url(),
-		'text' => elgg_view('page/elements/topbar_logo'),
-		'item_class' => 'name'
+		'name' => 'logo',
+		'href' => false,
+		'text' => elgg_view('page/elements/header_logo'),
+		'item_class' => 'name',
+		'section' => 'title-area',
 	));
 
 	elgg_register_menu_item('topbar', array(
 		'name' => 'toggle',
 		'href' => '#',
-		'text' => '<span>' . elgg_echo('menu') . '</span>',
+		'text' => elgg_echo('menu'),
 		'item_class' => 'toggle-topbar menu-icon',
-		'priority' => 900
+		'priority' => 900,
+		'section' => 'title-area',
 	));
+	
 }

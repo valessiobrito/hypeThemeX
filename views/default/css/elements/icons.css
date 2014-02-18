@@ -1961,7 +1961,7 @@
 }
 
 .elgg-ajax-loader {
-  background: white url('../../../../graphics/ajax_loader_bw.gif?1392232479') no-repeat center center;
+  background: white url('../../../../graphics/ajax_loader_bw.gif') no-repeat center center;
   min-height: 31px;
   min-width: 31px;
   margin: 1.875rem auto;
