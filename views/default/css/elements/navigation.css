@@ -256,7 +256,10 @@
 .elgg-menu-topbar .elgg-icon .elgg-icon + * {
   margin-left: 0.625rem;
 }
-.elgg-menu-topbar li:not(.elgg-menu-item-toggle) > a:not(.elgg-button) > .elgg-icon + span {
+.elgg-menu-topbar li:not(.elgg-menu-item-toggle) > a:not(.elgg-button) {
+  position: relative;
+}
+.elgg-menu-topbar li:not(.elgg-menu-item-toggle) > a:not(.elgg-button) > .elgg-icon + span, .elgg-menu-topbar li:not(.elgg-menu-item-toggle) > a:not(.elgg-button) .messages-new, .elgg-menu-topbar li:not(.elgg-menu-item-toggle) > a:not(.elgg-button) #notifier-new, .elgg-menu-topbar li:not(.elgg-menu-item-toggle) > a:not(.elgg-button) .friend-request-new {
   background: #67080a;
   color: white;
   height: 1.5625rem;
