@@ -26,6 +26,7 @@ function init() {
 	}
 
 	elgg_extend_view('css/elgg', 'css/theme/custom', 999);
+	elgg_extend_view('css/elgg', 'css/theme/plugins', 999);
 
 	elgg_extend_view('page/elements/head', 'framework/fonts/font-awesome');
 	elgg_extend_view('page/elements/head', 'framework/fonts/open-sans');

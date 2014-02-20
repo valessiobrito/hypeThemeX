@@ -365,7 +365,7 @@
   position: absolute;
   left: auto;
   top: 45px;
-  z-index: 9999;
+  z-index: 20;
   min-width: 12.1875rem;
   background: #111111;
 }
@@ -537,7 +537,7 @@
 .elgg-menu-hover {
   display: none;
   position: absolute;
-  z-index: 10000;
+  z-index: 300;
   overflow: hidden;
   min-width: 12.5rem;
   max-width: 15.625rem;
