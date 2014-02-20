@@ -26,7 +26,7 @@ function init() {
 	}
 
 	elgg_extend_view('css/elgg', 'css/theme/custom', 999);
-	
+
 	elgg_extend_view('page/elements/head', 'framework/fonts/font-awesome');
 	elgg_extend_view('page/elements/head', 'framework/fonts/open-sans');
 	elgg_extend_view('page/elements/head', 'framework/metatags/viewport');
@@ -83,4 +83,22 @@ function setup_menus() {
 		'section' => 'title-area',
 	));
 
+	if (elgg_is_admin_logged_in()) {
+		$counter = '';
+		$admin_notices = elgg_get_entities(array(
+			'types' => 'object',
+			'subtypes' => 'admin_notice',
+			'count' => true
+		));
+		if ($admin_notices) {
+			$counter = '<span class="messages-new">' . $admin_notices . '</span>';
+		}
+		elgg_register_menu_item('topbar', array(
+			'name' => 'administration',
+			'href' => 'admin',
+			'text' => elgg_view_icon('dashboard') . elgg_echo('admin') . $counter,
+			'priority' => 100,
+			'section' => 'alt',
+		));
+	}
 }

@@ -26,6 +26,7 @@
   max-width: 62.5rem;
   *zoom: 1;
   position: relative;
+  padding-top: 4.6875rem;
 }
 .elgg-page-header > .elgg-inner:before, .elgg-page-header > .elgg-inner:after {
   content: " ";
@@ -191,6 +192,10 @@
 }
 .elgg-layout:after {
   clear: both;
+}
+
+.elgg-layout-one-column .elgg-main {
+  padding: 20px;
 }
 
 .elgg-layout-one-sidebar {

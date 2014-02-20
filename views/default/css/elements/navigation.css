@@ -274,6 +274,7 @@
   left: -3px;
   top: -7px;
   font-size: 10px;
+  min-width: 15px;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
