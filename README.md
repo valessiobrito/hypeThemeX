@@ -18,5 +18,7 @@ Responsive theme for Elgg built with SCSS and Foundation 5
 
 ## Screenshots ##
 
-![alt text](https://raw.github.com/hypeJunction/hypeThemeX/master/screenshots/default_profile_full.png "Default Theme - Proifle - Desktop")
-![alt text](https://raw.github.com/hypeJunction/hypeThemeX/master/screenshots/default_profile_mobile.png "Default Theme - Profile - Mobile")
+![alt text](https://raw.github.com/hypeJunction/hypeThemeX/master/screenshots/settings.png "Page view")
+![alt text](https://raw.github.com/hypeJunction/hypeThemeX/master/screenshots/mobile-ui.png "Header area - Mobile")
+![alt text](https://raw.github.com/hypeJunction/hypeThemeX/master/screenshots/profile-full.png "Default Theme - Proifle - Desktop")
+![alt text](https://raw.github.com/hypeJunction/hypeThemeX/master/screenshots/profile-mobile.png "Default Theme - Profile - Mobile")

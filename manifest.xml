@@ -19,11 +19,15 @@
 
 	<screenshot>
 		<description>Profile Desktop</description>
-		<path>screenshots/default_profile_full.png</path>
+		<path>screenshots/profile-full.png</path>
 	</screenshot>
 	<screenshot>
 		<description>Profile Mobile</description>
-		<path>screenshots/default_profile_mobile.png</path>
+		<path>screenshots/profile-mobile.png</path>
+	</screenshot>
+	<screenshot>
+		<description>Mobile UI</description>
+		<path>screenshots/mobile-ui.png</path>
 	</screenshot>
 
 </plugin_manifest>
