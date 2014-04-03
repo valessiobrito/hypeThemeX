@@ -16,6 +16,16 @@ elgg_register_event_handler('init', 'system', 'hj_themex_init_menus', 999);
  */
 function hj_themex_init() {
 
+ // change register action to include terms check
+   elgg_unregister_action('register');
+   elgg_register_action('register', elgg_get_plugins_path() .
+   'hypeThemeX/actions/register.php','public');
+
+	// accept terms
+   elgg_register_action("accept_terms/accept_terms",
+   elgg_get_plugins_path() . "hypeThemeX/actions/accept_terms/accept_terms.php");
+   elgg_register_page_handler('accept_terms','accept_terms_page_handler');
+
 	if (elgg_in_context('admin')) {
 		return;
 	}

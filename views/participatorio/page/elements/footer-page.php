@@ -1,6 +1,6 @@
 <?php
-
-$powered_url = elgg_get_site_url() . "_graphics/powered_by_elgg_badge_drk_bckgnd.gif";
+$site_url =  elgg_get_site_url();
+$powered_url = $site_url . "_graphics/powered_by_elgg_badge_drk_bckgnd.gif";
 $c3sl_icon = $site_url . "mod/hypeThemeX/graphics/powered_by_c3sl.png";
 ?>
 <div class="mts clearfix float-alt">

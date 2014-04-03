@@ -25,7 +25,26 @@ if ($search) {
     echo '<a name="busca"></a><div id="header-search">' . $search . '</div>';
 }
 
-echo '<div id="sobre">
+echo '<div id="social-icons">
+   <ul>
+      <li id="redes-facebook">
+           <a href="https://www.facebook.com/Participatorio">
+           <span>Facebook</span>
+          </a>
+      </li>
+      <li id="redes-twitter">
+          <a href="https://twitter.com/Participatorio">
+               <span>Twitter</span>
+          </a>
+      </li>
+      <li id="redes-youtube">
+          <a href="http://www.youtube.com/user/participatoriojovem/videos">
+               <span>YouTube</span>
+          </a>
+      </li>
+    </ul>
+</div>
+<div id="sobre">
     <ul>
     <li><a href="' . $site_url . 'faq" title="Perguntas frequentes">Perguntas frequentes</a></li>
     <li><a href="' . $site_url . 'about" title="Sobre o Participatório">Sobre</a></li>
